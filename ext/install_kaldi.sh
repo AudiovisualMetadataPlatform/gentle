@@ -3,7 +3,7 @@
 # Prepare Kaldi
 cd kaldi/tools
 #make clean
-make -j
+make
 ./extras/install_openblas.sh
 cd ../src
 # make clean (sometimes helpful after upgrading upstream?)
